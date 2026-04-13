@@ -1,0 +1,34 @@
+{
+  "name": "RememberMe",
+  "version": "1.0.0",
+  "author": "atomlabor",
+  "type": "package",
+  "pebble": {
+    "displayName": "Remember Me",
+    "uuid": "3a00a5a3-dbb4-42b7-a36c-2f95fc74e0d4",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": ["aplite", "basalt", "chalk", "diorite", "emery", "flint", "gabbro"],
+    "watchapp": { "watchface": true },
+    "capabilities": ["location", "configurable"],
+    "messageKeys": {
+      "CONFIG_REMINDER_1": 10000,
+      "CONFIG_REMINDER_2": 10001,
+      "CONFIG_REMINDER_3": 10002,
+      "CONFIG_COLOR_TOP": 10003,
+      "CONFIG_OUTLINE_WHITE": 10004
+    },
+    "resources": {
+      "media": [
+        { "type": "font", "name": "FONT_BITCOUNT_LIGHT_64", "file": "fonts/Bitcount-Light.ttf" },
+        { "type": "font", "name": "FONT_BITCOUNT_LIGHT_56", "file": "fonts/Bitcount-Light.ttf" },
+        { "type": "font", "name": "FONT_BITCOUNT_LIGHT_42", "file": "fonts/Bitcount-Light.ttf" },
+        { "type": "bitmap", "name": "IMAGE_WATCH_ICON", "file": "images/generic_reminder.png" },
+        { "type": "bitmap", "name": "IMAGE_MENU_ICON", "file": "images/menu_icon.png", "menuIcon": true }
+      ]
+    }
+  },
+  "dependencies": {
+    "@rebble/clay": "^1.0.8"
+  }
+}
