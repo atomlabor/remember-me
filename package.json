@@ -1,10 +1,10 @@
 {
-  "name": "RemindMe",
+  "name": "Remember Me",
   "version": "1.2.0",
   "author": "atomlabor",
   "type": "package",
   "pebble": {
-    "displayName": "Remind Me",
+    "displayName": "Remember Me",
     "uuid": "3a00a5a3-dbb4-42b7-a36c-2f95fc74e0d4",
     "sdkVersion": "3",
     "enableMultiJS": true,
