@@ -1,10 +1,10 @@
 {
-  "name": "RememberMe",
-  "version": "1.0.0",
+  "name": "RemindMe",
+  "version": "1.2.0",
   "author": "atomlabor",
   "type": "package",
   "pebble": {
-    "displayName": "Remember Me",
+    "displayName": "Remind Me",
     "uuid": "3a00a5a3-dbb4-42b7-a36c-2f95fc74e0d4",
     "sdkVersion": "3",
     "enableMultiJS": true,
@@ -16,7 +16,14 @@
       "CONFIG_REMINDER_2": 10001,
       "CONFIG_REMINDER_3": 10002,
       "CONFIG_COLOR_TOP": 10003,
-      "CONFIG_OUTLINE_WHITE": 10004
+      "CONFIG_COLOR_BOTTOM": 10004,
+      "CONFIG_OUTLINE_WHITE": 10005,
+      "CONFIG_COLOR_TEXT": 10006,
+      "CONFIG_HIDE_ICON": 10007,
+      "CONFIG_ENABLE_GRADIENT": 10008,
+      "CONFIG_COLOR_BOTTOM_END": 10009,
+      "CONFIG_COLOR_TIME": 10010,
+      "CONFIG_COLOR_BATTERY": 10011
     },
     "resources": {
       "media": [
